@@ -1,0 +1,121 @@
+/* reseteo css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+* {
+    font-family: 'Roboto Mono';
+}
+
+/* HEADER */
+.navbar {
+    background-color: black !important;
+}
+
+.navbar .nav-link {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+}
+
+/* MAIN */
+.titulos h1 {
+    font-size: 25px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.titulos h3 {
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/* SECCION CONOCEME */
+.texto {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    border: solid 1px white;
+}
+
+.texto {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    border: solid 1px white;
+}
+
+@media all and (min-width: 768px) {
+    main {
+        background: url(../recursos/webdev.jpg);
+        background-attachment: fixed;
+        background-size: contain;
+    }
+}
+
+/* SECCION TRABAJOS */
+.seccionTrabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seccionTrabajos .card {
+    padding: 30px;
+    text-align: center;
+    font-weight: bold
+}
+
+/* SECCION CONTACTO */
+.formulario {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.controlesFormulario {
+    background-color: black;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.consulta {
+    padding: 50px;
+    text-align: center;
+}
+
+.botonFormulario {
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+}
